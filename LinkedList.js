@@ -38,9 +38,12 @@ LinkedList.prototype.displayAllNodes = function () {
 LinkedList.prototype.deleteFromBegenning = function () {
 	let deleteNode = this.head;
 	this.head = this.head.next;
-
+    this.deleteNode = null;
 }
 
 LinkedList.prototype.deleteFromEnd = function () {
-	
+    let tempPtr = head;
+    while(this.tempPtr.next) {
+        tempPtr = tempPtr.next;
+    }
 }
