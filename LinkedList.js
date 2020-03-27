@@ -1,10 +1,4 @@
-// Datastructure definition
-
-// Operations to be added
-// insert at a location
-// delete from location
-
-
+// Singly Linked List implementation with helper utilities
 
 class Node {
 	constructor(data, next = null) {
