@@ -1,4 +1,6 @@
 // Implementing insertion sort in an iterative way. Works on both numbers and strings.
+// {Author: Vaibhav Prasad}
+
 function insertionSort(a) {
     if (!a || a.length === 0) {
         return [];

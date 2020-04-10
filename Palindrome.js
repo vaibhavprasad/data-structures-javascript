@@ -1,4 +1,6 @@
 // A String is Palindrome if it reads same backward and forward ex. madam, malayalam tec
+// {Author: Vaibhav Prasad}
+
 let isPalindrome = function (word) {
 	let i = 0;
 	let j = word.length - 1;

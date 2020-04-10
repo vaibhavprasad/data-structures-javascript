@@ -1,4 +1,5 @@
 // Singly Linked List implementation with helper utilities
+// {Author: Vaibhav Prasad}
 
 class Node {
 	constructor(data, next = null) {

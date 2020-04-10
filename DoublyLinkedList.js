@@ -1,4 +1,5 @@
 // Doubly Linked List Implementation with helper utilities
+// {Author: Vaibhav Prasad}
 
 class Node {
 	constructor (data, prev = null, next = null) {

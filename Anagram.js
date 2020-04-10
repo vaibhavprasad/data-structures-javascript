@@ -1,4 +1,5 @@
 // a string formed by rearranging the letters of another are anagrams. The function return the true if the inputs are anagram else false
+// {Author: Vaibhav Prasad}
 
 let anagram = function (a,b) {
     let obj1 = {};

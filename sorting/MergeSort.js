@@ -1,4 +1,5 @@
 // the following program contains two methods, one is the merge sort using recursion and another is a helper method to merge two sorted arrays
+// {Author: Vaibhav Prasad}
 
 function mergeSort (arr) {
     if (arr.length === 1) {

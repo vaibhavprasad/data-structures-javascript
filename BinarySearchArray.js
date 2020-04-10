@@ -1,4 +1,5 @@
 // Binary Search Implementation on an array of integers. If the number is present in the array, it returns index of the number else -1;
+// {Author: Vaibhav Prasad}
 
 function binarySearch(arr, key) {
     let left = 0;

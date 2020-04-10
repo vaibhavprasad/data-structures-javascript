@@ -1,5 +1,6 @@
 // The following code shows the implementation of quick sort on a random array of 100,000 elements. Its a single pivot quick sort with pivot fixed as the 1st element of the array.
 // No auxillary space has been used to the array arr is declared outside of the function scope.
+// {Author: Vaibhav Prasad}
 
 function quickSort(arr, l, r) { // initially l = 0, r = length - 1
     if (l >= r) {
