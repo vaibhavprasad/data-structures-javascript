@@ -100,7 +100,7 @@ LinkedList.prototype.deleteFromIndex = function (index) {
 }
 
 LinkedList.prototype.reverseList = function () {
-	// using three pointers; one using stack will be covered in the stack.js file
+	// using three pointers;
 	if (this.size === 0) {
 		return;
 	}
@@ -114,6 +114,19 @@ LinkedList.prototype.reverseList = function () {
 		currentPtr = nextPtr;
 	}
 	this.head = prevPtr;
+}
+
+LinkedList.prototype.reverseListRecursive = function (node) {
+	 // reversing a linked list using recursion
+    if (node.next === null) {
+        return node;
+    } else {
+        let nextNode = node.next;
+        node.next = null;
+        let rev = this.reverseListRecursive(nextNode);
+        nextNode.next = node;
+        return rev;
+    }
 }
 
 // Usage 
